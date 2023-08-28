@@ -1,0 +1,27 @@
+1.Basic Xpath :: "//tagname[@attrivute='values']"
+2.Starts with function :: "//tagname[stats-with(@attrivute,'value')]"
+3.Contains Dunction :: "//tagname[contains(@attrivute,'value')]"
+4.Text Method :: "//tagname[text()='Actual text']"
+5. And and or expression xpath ::  "//tagname[@attrivute='Value' or @attrivute='Value']"
+				"//tagname[@attrivute='Value' and @attrivute='Value']"
+
+6. Xpath Axes Method :: Parent :: //tagname[@attrivute='Value']//parent::tagname[parent::from]
+			Child :: //tagname[@attrivute='Value']//child::tagname[If we chose dropdown index just input this last line::-> index[1]]
+			Self :: //tagname[@attrivute='Value']//self::tagname [Ex: self::select]
+
+7. Xpath descendant : //tagname[@attrivute='Value']//descendant::tagname
+
+8.Xpath descendant or self  : //tagname[@attrivute='Value']//descendant-or-self::tagname
+
+9.Xpath ancestor ::  //tagname[@attrivute='Value']//ancester::tagname
+
+10.Xpath ancester or self ::  //tagname[@attrivute='Value']//ancester-or-self::tagname
+
+11.Xpath following ::  //tagname[@attrivute='Value']//following::tagname
+
+12.Xpath following-sibling ::  //tagname[@attrivute='Value']//following-sibling::tagname
+
+13.Xpath preceding ::  //tagname[@attrivute='Value']//preceding::tagname
+
+14.Xpath preceding-sibling ::  //tagname[@attrivute='Value']//preceding-sibling::tagname
+
