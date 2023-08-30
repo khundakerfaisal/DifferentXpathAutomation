@@ -1,0 +1,17 @@
+
+<<<<<<<<<<<<<Remote chrome driver configuration>>>>>>>>>>>>>>>
+ChromeDriver driver =new ChromeDriver();
+	ChromeOptions Option=new ChromeOptions();
+	Option.addArguments("--remote-allow-origins=*");		
+
+
+
+<<<<<<<<<<<<<<<<<<<<<<List of dropdowdown selection with count>>>>>>>>>>>>>>>>>>>>>>
+
+List<WebElement> AutoSugg = driver.findElements(By.xpath("//ul[@class='G43f7e']/li"));
+		
+		int count = AutoSugg.size();
+		
+		System.out.println(count);
+		
+		AutoSugg.get(count-6).click();
